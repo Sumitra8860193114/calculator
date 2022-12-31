@@ -1,0 +1,59 @@
+
+<html> 
+    <head >
+        <link rel="stylesheet" href="style.css">
+        <title>Attreactive calculator</title>
+    </head>
+    <body>
+<h1>
+    Online calculator
+</h1>
+<div id="project">
+<h2>
+    By:-Sumitra Bharti
+</h2>
+</div>
+    </body>
+    <form name="formal" class="calci" action="calculator.html" method="post">
+    
+
+<input type="text" name="answer" id="display">
+<br>
+    </br>
+<input type="button" id="btnDesigen" value="C" onclick="formal.answer.value=''">
+<input type="button" id="btnDesigen" value="<" onclick="formal.answer.valuE=formal.answer.value.substring(0,formal.answer.value.length*1-1)">
+<input type="button" id="btnDesigen" value="00" onclick="formal.answer.value+='00'">
+<input type="button" id="operatorDesign" value="/" onclick="formal.answer.value+='/'">
+<br>
+</br>
+<input type="button" id="btnDesigen" value="7" onclick="formal.answer.value+='7'">
+<input type="button" id="btnDesigen" value="8" onclick="formal.answer.value+='8'">
+<input type="button" id="btnDesigen" value="9" onclick="formal.answer.value+='9'">
+<input type="button" id="operatorDesign" value="*" onclick="formal.answer.value+='*'">
+<br>
+</br>
+<input type="button" id="btnDesigen" value="4" onclick="formal.answer.value+='4'">
+<input type="button" id="btnDesigen" value="5" onclick="formal.answer.value+='5'">
+<input type="button" id="btnDesigen" value="6" onclick="formal.answer.value+='6'">
+<input type="button" id="operatorDesign" value="-" onclick="formal.answer.value+='-'">
+<br>
+</br>
+<input type="button" id="btnDesigen" value="1" onclick="formal.answer.value+='1'">
+<input type="button" id="btnDesigen" value="2" onclick="formal.answer.value+='2'">
+<input type="button" id="btnDesigen" value="3" onclick="formal.answer.value+='3'">
+<input type="button" id="operatorDesign" value="+" onclick="formal.answer.value+='+'">
+<br>
+</br>
+<input type="button" id="zero" value="0" onclick="formal.answer.value+='0'">
+<input type="button" id="btnDesigen" value="." onclick="formal.answer.value+='.'">
+<input type="button" id="operatorDesign" value="=" onclick="formal.answer.value=eval(formal.answer.value)">
+
+
+
+    </form>
+
+
+
+</html>
+
+
